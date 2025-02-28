@@ -1,0 +1,125 @@
+.footer {
+    background-color: #232323;
+
+    .content {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        padding: 50px 0 50px;
+    }
+}
+
+.vertical-nav {
+    display: flex;
+    flex-direction: column;
+    color: #BCBCBC;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+
+    div {
+        margin: 7px 15px;
+    }
+}
+
+.footer-nav-links {
+    color: #BCBCBC;
+    text-decoration: none;
+
+    transition: all 0.3s ease;
+}
+
+.footer-contacts {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 18px;
+    color: #BFBFBF;
+    text-decoration: none;
+}
+
+.footer-numbers {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    position: relative;
+
+    &::before {
+        content: '';
+        display: block;
+        width: 18px;
+        height: 18px;
+        background-image: url("../img/phone.svg");
+        position: absolute;
+        left: -35px;
+        top: calc(50% - 9px);
+    }
+}
+
+.adress {
+    position: relative;
+    margin: 0 0 10px;
+
+    &::before {
+        content: '';
+        display: block;
+        width: 14px;
+        height: 20px;
+        background-image: url("../img/point-geo.svg");
+        position: absolute;
+        left: -35px;
+        top: 0;
+    }
+}
+
+.footer-email:hover a {
+    color: #E24E4E !important;
+}
+
+.footer-email {
+    position: relative;
+    margin: 10px 0;
+    transition: all .3s ease;
+    a {
+        text-decoration: none;
+        color: inherit !important;
+    }
+}
+.footer-email::before {
+     content: '';
+     display: block;
+     width: 20px;
+     height: 16px;
+     background-image: url("../img/mail.svg");
+     position: absolute;
+     left: -35px;
+ }
+
+.changeLeng-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.leng-links-footer {
+    color: #BCBCBC;
+    text-decoration: none;
+    transition: all .3s ease;
+    margin: 0 0 10px;
+    background: none;
+    border: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 18px;
+}
+
+.footer-cont-num {
+    color: #BCBCBC;
+    text-decoration: none;
+    margin: 5px 0;
+    transition: all .3s ease;
+}

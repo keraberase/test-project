@@ -1,0 +1,65 @@
+.projects_section {
+    padding: 50px 0;
+
+    h1 {
+        color: white;
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        padding: 0 0 50px 0;
+    }
+}
+
+.projectCardsWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectVideoBox {
+    width: 37%;
+}
+
+.projectCardBox {
+    width: 444px;
+    height: 290px;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.projectCardTitleBox {
+    margin: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 63%;
+    background: rgba(34, 34, 34, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: stretch;
+
+    .projectCardTitle {
+        margin: 20px;
+        color: white;
+        font-size: 1.2rem;
+        font-family: "Fira_Sans";
+    }
+}
+
+.videoProjectCard {
+    position: relative;
+
+    &::before {
+        content: '';
+        width: 22px;
+        height: 25px;
+        background-image: url("../img/play_arrow.svg");
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        display: none;
+    }
+}

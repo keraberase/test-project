@@ -1,0 +1,48 @@
+{
+  "title": "Humanitarian Office of Center of Charismatic Christian Churches of Ukraine",
+  "header": {
+    "part1": "Humanitarian Office of Center of Charismatic",
+    "part2": "Christian Churches of Ukraine"
+  },
+  "nav": {
+    "news": "News",
+    "gallery": "Gallery",
+    "projects": "Projects"
+  },
+  "adress": "02192, Kyiv-192, post-office box 1",
+  "news": {
+    "headline": "News",
+    "button": "Load More"
+  },
+  "read": "Read",
+  "projects": "Our projects",
+  "project": {
+    "remont-title": "Our volunteers made repairs in one of the settlements of Uzhhorod. Now people have warm water and the opportunity to take a shower and cook for themselves. thanks for your support."
+  },
+  "map": "Ukraine",
+  "gallery": {
+  "headline": "Gallery"
+  },
+  "SeniorBishop": "Gavrilyuk Anatolii Petrovich\n",
+  "SeniorBishopPosition": "Senior Bishop of the CCCU",
+  "SeniorBishopTitle": "Pastor of the Living Word Church, Kyiv\nHonorific Doctor of Theology \n",
+  "HumanitarianCoordinator": "Oleg Bondar\n",
+  "HumanitarianCoordinatorPosition": "Humanitarian Coordinator",
+  "stories": {
+    "headline": "Stories",
+    "title": "One of the first families we were able to help was the Polyarenko family from Kyiv. The people had a temporary shelter, and later we helped to rent housing, now they have shelter and the opportunity to live and work in a safer city."
+  },
+  "Tons" : {
+    "1": "tons",
+    "2": "shipped"
+  },
+  "Settled people": {
+    "1": "settled",
+    "2": " people"
+  },
+  "Received help": {
+    "0": "people",
+    "1": "received",
+    "2": "help"
+  }
+}

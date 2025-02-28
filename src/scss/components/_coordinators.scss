@@ -1,0 +1,30 @@
+.coordinators {
+    background: #f6f8f8;
+    padding: 50px;
+
+    &Person {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &:nth-child(2) {
+            text-align: right;
+        }
+    }
+
+    .personImage {
+        img {
+            height: 250px;
+            width: 200px;
+            margin: 25px 50px;
+        }
+    }
+
+    .personTitle {
+        font-size: 1.2rem;
+
+        h2 {
+            font-size: 1.8rem;
+        }
+    }
+}
